@@ -1,0 +1,388 @@
+Q: 01. 	You are given the following code:
+
+	int number = 15;
+	int secondNumber = 10;
+	int thirdNumber = 19;
+	int resultNumber = number++ + ++secondNumber + thirdNumber;
+	
+	What will the value of "resultNumber" be after the execution?
+
+A:
+a) 	15
+b) 	25
+c) 	45
+d) 	40
+
+Q: 02. 	You are given the following code:
+
+	int iterations = 1;
+
+	for(;;)
+	{
+		Console.WriteLine(iterations + ". " + "Iteration");
+		iterations++;
+	}
+	
+	How many times will the loop iterate after the execution?
+
+A:
+a) 	0
+b) 	1000
+c) 	The loop code is invalid
+d) 	Infinite
+
+Q: 03. 	Which one of these boolean expressions is syntactically invalid?
+
+A:
+a) 	true != true
+b) 	personName == inputName || personAge = requiredAge
+c) 	1 == 1 && 2 == 3 && 4 == 5
+d) 	personPassword == requiredPassword || username = requiredUsername && email == requiredEmail
+
+Q: 04. 	Which of the following is true?
+
+A:
+a) In a "switch" statement, when a case "falls trough", it can contain code before the next case.
+b) The "if" statement cannot be used without an "else" statement after it.
+c) When counting several cases with the "else if" statement, you must always put an "else" statement after them.
+d) The "if" and "else if" statements can test more than one boolean expressions, by combining them as one compelex boolean expression.
+
+Q: 05. 	You need to store a value in the range [-2^31 + 1, 2^31 - 1]. 
+		Note that memory economy is essential to the process. 
+		What data type is most suitable for that task.
+	   
+A:
+a) 	int
+b) 	short
+c) 	ulong
+d) 	byte
+
+Q: 06. 	You are given the following piece of code:
+
+	int a = 20;
+	int b = 10;
+	int c = 5;
+	int d = 1;
+	int expressionValue = (a + ++b) - c * b + (a - d--) + c * (b / d);
+
+	if (expressionValue != 0)
+	{
+		Console.WriteLine("Pointless calculations");
+	}
+	else
+	{
+		Console.WriteLine(expressionValue);
+	}
+	
+	What will the result of its execution be?
+A:
+a) 	"Pointless calculations"
+b) 	3791
+c) 	0
+d) 	DivideByZeroException
+
+Q: 07. 	Of the following, which is highest in the code organization hierarchy?
+
+A:
+a) 	Assembly
+b) 	Namespace
+c) 	Class
+d) 	Method
+
+Q: 08. 	Your task is to create a simple repetitive structure, but there 
+		is a condition for it to iterate over its body atleast once, 
+		regardless of the input. What loop structure is it best to use 
+		for the given case.
+
+A:
+a) 	while
+b) 	do-while
+c) 	for
+d) 	foreach
+
+Q: 09.	You are given a recursive algorithm which was written by an incompetent 
+		developer. You are not sure what can possibly be broken in the algorithm,
+		but you are informed that it does not work properly. You compile it and 
+		the execution results in a StackOverflowException. What is the first thing 
+		you will check?
+		
+A:
+a) 	The compiler... It might be broken
+b) 	If the electricity income is normal
+c) 	If the recursion lacks a base case
+d) 	The refrigerator, for beer
+
+Q: 10.	You are given the following code:
+
+	int a = 1;
+	int b = 10;
+	int c = 5;
+	int d = 6;
+
+	Console.WriteLine(b / (c + d) * a);
+	
+	What will it print on the Console?
+A:
+a) 	22
+b) 	15
+c) 	0
+d) 	1
+
+Q: 11.	You are given the following code:
+
+	int a = 5;
+	float b = 5.0;
+	double c = 5.0;
+	decimal d = 5.0;
+	int zero = 0;
+	
+	if((a * b * c * d) + (a + b + c + d))
+	{
+		Console.WriteLine((a + b + c + d) / zero);
+	}
+	
+	That code will always result in an error. 
+	The question is will it's result will be?
+A:
+a) 	ArgumentException
+b) 	DivideByZeroException
+c) 	InvalidBooleanExpressionException
+d) 	The program will not compile
+
+Q. 12.	Your task is to print every element of a collection,
+		however that collection lacks indexation. 
+		What repetition structure is best for this case?
+		
+A:
+a) 	for loop
+b) 	foreach loop
+c) 	do-while loop
+d) 	while loop	
+
+Q. 13.	What is an array?
+
+A:
+a) 	A decision structure
+b) 	A collection of elements, each with a different data type
+c) 	The misspelled version of the word "arrow"
+d) 	A collection of elements, with identical data types
+
+Q. 14.	Which of the following statements is true?
+
+A:
+a)	A variable must always contain an exclamation mark in its name
+b) 	There can be no more than 1 variables in the main method
+c) 	An inifinite loop cannot be achieved trough using the for loop
+d) 	A variable must always be uniquely named in the scope it is defined
+
+Q. 15. 	Which of the following variables' declaration will 
+		be successfully compiled?
+		
+A:
+a) 	int elements count;
+b) 	double product-price;
+c) 	float _daily_income_of_employees_;
+d)	decimal bank.storage;
+
+Q. 16.	You are given the following piece of code:
+
+	for(int i = 0; i > -10; i--)
+	{
+		if(i == 1)
+		{
+			Console.WriteLine("Impossible");
+		}
+		else if (i == -9) 
+		{
+			Console.WriteLine(i - 1);
+		}
+	}
+	
+	What will the result of its execution be?
+	
+A:
+a) 	"Impossible" printed on the Console
+b) 	"-9" printed on the Console
+c)	 "-10" printed on the Console
+d) 	InvalidLoopDeclarationException
+
+Q. 17.	Which of the following statements is correct?
+
+A:
+a) 	A try block cannot be used without a catch block
+b) 	A catch block cannot be used without a finally block
+c)	A catch block cannot be used without specifying a particular exception you want to catch
+d) 	There can be more than one catch blocks after a try block
+
+Q. 18.	You are given the following piece of code:
+
+	int divisor = 0;
+
+	try
+	{
+		Console.WriteLine(10 / divisor);
+	}
+	finally
+	{
+		Console.WriteLine("Operation Completed.");
+	}
+	
+	What will the result of its execution be?
+	
+A:
+a) 	The code will not compile
+b) 	Only "Operation Completed." will be printed on the Console
+c) 	Only the result of the division of "10" and "divisor" will be printed on the Console
+d) 	A DivideByZeroException will be thrown and after it, 
+	"Operation Completed." will be printed on the Console.
+	
+Q. 19. 	You are given the following piece of code:
+
+	int a = 15;
+	int b = 10;
+	int c = a = b + 1;
+
+	if (a > b && c <= a)
+	{
+		Console.WriteLine(a);
+	}
+	else
+	{
+		Console.WriteLine(b);
+	}
+
+	Console.WriteLine(c);
+	
+	What will be printed on the console?
+	
+A:
+a) 	"15"
+	"10"
+	
+b) 	"25"
+	"15"
+	
+c) 	"11"
+	"11"
+	
+d)	"10"
+	"11"
+	
+Q. 20.	You are given the following piece of code:
+
+	int b = 10;
+
+	switch (b)
+	{
+		case 10:
+			Console.WriteLine("b is 10");
+			break;
+		case 21:
+		case 22:
+			Console.WriteLine("b is 22");
+		case 23:
+		case 24:
+		case 25:
+			Console.WriteLine("b is between 21 and 25");
+			break;
+		default:
+			Console.WriteLine("I cannot count that far");
+			break;
+	}
+	
+	What will the result of its execution be?
+
+A:
+a) 	"b is 10" will be printed on the Console
+b) 	The code will not compile
+c) 	"b is 22" will be printed on the Console
+d) 	"I cannot count that far" will be printed on the Console
+
+Q. 21 - 30.	Choose the most suitable words to complete the sentence:
+	
+Q.	"To access the third element of an array you use index ____."
+
+A:
+a) 	3
+b) 	0
+c) 	2
+d) 	4
+
+Q.	"The ____ statement selects a particular variable, and tests if it is equal to
+	 several values of the same type."
+	 
+A:
+a) 	for
+b) 	try-catch
+c) 	switch
+d) 	if
+
+Q. 	"____ is a programming technique, which is performed by writting an algorithm which
+	 causes a method to call itself in its own execution."
+	 
+A:
+a) 	Destruction
+b)	Polymerization
+c) 	Recursion
+d) 	Decision
+
+Q. 	"The ____ loop is the best way to iterate over a collection which lacks indexation."
+
+A:
+a) 	for
+b)	foreach
+c) 	do-while
+d) 	while
+
+Q. 	"Operators which operate with two operands are called ____ and operators which
+	 operate with three operands are called ____."
+	 
+A:
+a) 	Hansel, Gretel
+b) 	int, double
+c) 	for, while
+d) 	binary, ternary
+
+Q. 	"Errors in C# are "caught" and handled using the ____ block combination."
+
+A:
+a) 	do-while
+b)	for-each
+c) 	ping-pong
+d) 	try-catch
+
+Q. 	"The if statement checks if a ____'s value is ____ or ____."
+
+A:
+a) 	car, broken, fixed
+b)	banana, rotten, raw
+c) 	boolean expression, true, false
+d) 	variable, 10, 20
+
+Q. 	"The ____ loop will always iterate atleast once, regardless
+	of its condition, because it tests its condition after the execution
+	of its body."
+	
+A:
+a) 	while
+b)	do-while
+c) 	foreach
+d) 	for
+
+Q.	"If an algorithm consists of large amount of conditions, it is best to use ____
+	 to represent the algorithm in a readable format."
+	 
+A:
+a) 	for loop
+b)	if statement
+c) 	Decision table
+d) 	A big screen TV
+
+Q. 	"Fields or variables which cannot be modified and are initialized when they are 
+	 declared, are called ____."
+ 
+A:
+a) 	Algorithms
+b)	Constants
+c) 	Boolean expressions
+d) 	Loops
