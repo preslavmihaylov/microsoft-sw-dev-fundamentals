@@ -1,0 +1,549 @@
+Q. 01.	You are tasked with creating a method for several classes. 
+		Some of those classes, however are completely different from 
+		the others. Each class defines its own functionality for that 
+		particular method.
+		What should you use to define this functionality?
+
+A:
+a)	A banana peel
+b)	Nothing... Just add the method to every class with its different functionality
+c)	Create and use a common interface that is implemented by the classes
+d)	Create a base class which is inherited by all other classes
+
+Q. 02. 	You are given the abstract class Boat, which holds one method,
+		with functionality about the abstract class. 
+		
+		public abstract class Boat
+		{
+			public virtual void Vroom()
+			{
+				//some functionality
+			}
+		}
+		
+		You must implement 
+		a derived class, Motorboat, which inherits the Boat class, but 
+		defines different functionality for that method, and hides the 
+		abstract method. What implementation would you use?
+		
+A:
+a)	
+	public class Motorboat : Boat
+	{
+		public override void Vroom()
+		{
+			//some functionality
+		}
+	}
+b)	
+	public class Motorboat : Boat
+	{
+		public new void Vroom()
+		{
+			//some functionality
+		}
+	}
+c)	
+	public class Motorboat : Boat
+	{
+		public abstract void Vroom()
+		{
+			//some functionality
+		}
+	}
+d)	
+	public class Motorboat : Boat
+	{
+		public static void Vroom()
+		{
+			//some functionality
+		}
+	}
+
+Q. 03.	You are creating a new class named Rectangle. You write the following code:
+
+		class Rectangle: IComparable
+		{
+			public double Length { get; set; }
+			public double Width { get; set; }
+			public double GetArea()
+			{
+				return Length * Width;
+			}
+			public int CompareTo(object obj)
+			{
+				// to be completed
+			}
+		}
+		You need to complete the definition of the CompareTo method to enable comparison of
+		the Rectangle objects. Which of the following codes should you write?
+
+A:
+a) 
+	public int CompareTo(object obj)
+	{
+		Rectangle target = (Rectangle)obj;
+		double diff = this.GetArea() − target.GetArea();
+		if (diff == 0)
+		{
+			return 1;
+		}
+		else if (diff > 0)
+		{	
+			return -1;
+		}
+		else 
+		{
+			return 0;
+		}
+	}
+b) 
+	public int CompareTo(object obj)
+	{
+		Rectangle target = (Rectangle)obj;
+		double diff = this.GetArea() − target.GetArea();
+		if (target == 0)
+		{
+			return 0;
+		}
+		else if (target > 0)
+		{	
+			return 1;
+		}
+		else 
+		{
+			return −1;
+		}
+	}
+c)
+	public int CompareTo(object obj)
+	{
+		Rectangle target = (Rectangle)obj;
+		double diff = this.GetArea() − target.GetArea();
+		if (diff == 0)
+		{
+			return 0;
+		}
+		else if (diff > 0)
+		{	
+			return 1;
+		}
+		else 
+		{
+			return −1;
+		}
+	}
+d)
+	public int CompareTo(object obj)
+	{
+		Rectangle target = (Rectangle)obj;
+		double diff = this.GetArea() − target.GetArea();
+		if (diff == 0)
+		{
+			return 0;
+		}
+		else if (diff < 0)
+		{	
+			return 1;
+		}
+		else 
+		{
+			return −1;
+		}
+	}
+	
+Q. 04.	You are tasked to create a class Car. You want all of the class members
+		to be initialized as soon as the class is created. What is the most 
+		appropriate thing to do in this case.
+		
+A:
+a)	Create a private method Init(), to initialize all members of the class, 
+	and call it always
+b)	Create a constructor for the Car class and initialize its members from there
+c)	Create an event in the Car class to initialize its members
+d)	Ask someone else to do that for you because you are lazy
+
+Q. 05.	You want to create a class which can be instantiated. You do not want
+		the functionality of this class to be inherited.
+		What keyword should you use in the definition of the class?
+		
+A:
+a)	private
+b)	sealed
+c)	magic
+d)	this
+
+Q. 06.	The ability of an object to be used trough its parent or interface, is called
+
+A:
+a)	Inheritance
+b)	Abstraction
+c)	Polymorphism
+d) 	Polymerization
+
+Q. 07.	You are given the following interface:
+		
+		public interface IFruit
+		{
+			void GetVitamins();
+		}
+		
+		... and the following class implementing it:
+		
+		public class Peach : IFruit
+		{
+			protected void GetVitamins()
+			{
+				Console.WriteLine("Vitamin C");
+			}
+		}
+		
+		This code will always result in an error, the question is why?
+		
+A:
+a)	The interface naming does not follow the conventions
+b)	The interface's access modifier is invalid
+c)	The class's method's access modifier is invalid
+d)	The class's access modifier is invalid
+
+Q. 08.	You are given the following interface:
+		
+		public interface IVehicle
+		{
+			void Move();
+		}
+		
+		... and the following class implementing it:
+		
+		public abstract class Vehicle : IVehicle
+		{
+			public abstract void Move();
+		}
+		
+		If you compile the code, it will:
+		
+a) 	Compile successfully
+b) 	Result in an error, because of inappropriate implementation of the interface's method
+c) 	Result in an error, because the class implements the interface innapropriately
+d) 	Throw an InvalidInterfaceImplementationException
+
+Q. 09.	You want to restrict a particular class to the namespace, containing it.
+		What access modifier will you use on the class?
+		
+A:
+a) 	public
+b) 	internal
+c) 	protected
+d) 	abstract
+
+Q. 10.	You are given a class which can be inherited, and it has a certain method with certain 
+		functionality, already implemented, which should be inherited and used by all derived classes.
+		But some of those classes might have the need to define different functionality for that 
+		same method. Which keyword would you use in the definition of the method?
+
+A:
+a)	virtual
+b)	abstract
+c)	static
+d)	new
+
+Q. 11.	What are the four main principles of Object Oriented Programming?
+
+A:
+a)	Destruction, Creation, Protection, Polymerization
+b)	Abstraction, Encapsulation, Inheritance, Polymorphism
+c)	Inheritance, Interfaces, Affection, Subtraction
+d)	int, double, float, decimal
+
+Q. 12.	What is NOT true for Encapsulation?
+
+A:
+a)	Encapsulation is an information-hiding mechanism
+b)	Encapsulation makes code easy to maintain and understand
+c)	Encapsulation is the technique of hiding data behind constructors and properties
+d)	Encapsulation should only be used on abstract classes
+
+Q. 13.	A method of a certain class, which belongs to the class itself and 
+		can be used even if the class is not instantiated, is a:
+		
+A:
+a) 	virtual method
+b)	public method
+c)	static method
+d)	internal method
+
+Q. 14.	A delegate is:
+
+A:
+a)	An event which can be used to handle method calls
+b)	An abstract class holding the arguments to an event
+c)	A special type which is used to encapsulate a method with a specific signature
+d)	A method which encapsulates specific fields
+
+Q. 15.	Which is true about the Namespaces?
+
+A:
+a)	Namespaces implicitly have public access
+b)	Namespaces's access is modifiable
+c)	Namespaces are special classes which can be inherited but not instantiated
+d)	Namespaces are sealed classes with no functionality
+
+Q. 16.	The "this" keyword is:
+
+A:
+a)	A reference to the current instance of the class
+b) 	A reference to the current method of the class
+c) 	A reference to the namespace of the current class
+d)	A reference to the current variable of the class
+
+Q. 17.	Which of the following is true?
+
+A:
+a)	Structs are namespaces which can be instantiated	
+b)	Structs are special classes that cannot be instantiated
+c)	Structs are value data types
+d)	Structs are reference data types
+
+Q. 18.	You are given the following interface:
+
+		public interface IInvokable
+		{
+			void Invoke();
+		}
+		
+		And the following class implementing it:
+		
+		public class CustomAction : IInvokable
+		{
+			public void Invoke()
+			{
+				Console.WriteLine("Action Invoked");
+			}
+		}
+		
+		Given that, what will be the result of the execution of the following code:
+		
+		public class Program
+		{
+			public static void Main(string[] args)
+			{
+				IInvokable testAction = new CustomAction();
+				testAction.Invoke();
+			}
+		}
+		
+A:
+a)	"Action Invoked" printed on the Console
+b)	InvalidInterfaceImplementationException thrown
+c)	The code will not compile
+d)	"null" printed on the Console
+
+Q. 19.	Which of the following is true?
+
+A:
+a)	Classes can have duplicate names if they are in different namespaces
+b)	Namespaces cannot have more than 2 classes in them
+c)	Classes can have more than one namespace
+d)	Namespaces can have duplicate names
+
+Q. 20.	Which of the following is NOT true about Abstract Classes?
+
+A:
+a)	Abstract classes cannot be instantiated
+b)	Abstract classes provide a common definition of a base class 
+	which can be shared by mutliple derived classes
+c)	Abstract classes cannot be inherited
+d)	Abstract classes cannot define methods with bodies
+
+Q. 21.	You are given class "Dummy", which defines method "A".
+		Class "Dummy2" inherits class "Dummy", and defines method "B".
+		Classes "Dummy3" and "Dummy4" inherit class "Dummy2". Class "Dummy3"
+		defines method "C" and class "Dummy4" defines method "D".
+		To which methods does class "Dummy3" have access?
+		
+A:
+a) 	A, B
+b) 	A, B, D
+c) 	A, B, C, D
+d) 	A, B, C
+
+Q. 22.	You are tasked to write a code to handle events in your program. 
+		You are given a delegate:
+		
+		public delegate void RectangleHandler(Rectangle rect);
+		
+		You are also given a variable of type that delegate:
+		
+		RectangleHandler handler;
+		
+		Later in the program, you need to add a method named "DisplayArea" to the method
+		invocation list of the "handler" variable. The signature of the "DisplayArea" method 
+		matches the signature of the "RectangleHandler" method. Any code that you write should not
+		affect any existing event-handling code. Given this restriction, which of the following
+		codes should you write?
+
+A:
+a) 	handler = new RectangleHandler(DisplayArea);
+b) 	handler = DisplayArea;
+c) 	handler += DisplayArea;
+d) 	handler −= DisplayArea;
+
+Q. 23.	You are given two objects, and you need to compare them. One of them, however,
+		might not be of the same type as the other. What will you use to validate that
+		the second object is of the same type as the other?
+		
+A:
+a)	A pistol
+b)	"return" statement
+c)	"is" operator
+d)	"private" access modifier
+
+Q. 24.	Which of the following is true?
+
+A:
+a)	An object is a template for a class
+b)	An object is an instance of a class
+c)	An object is a class
+d)	An object is a reworked version of class
+
+Q. 25.	Inheritance is:
+
+A:
+a)	The ability of one object to be compared to all other objects
+b)	The ability of one object or class to use the same implementation to 
+	mantain the same behaviour as another
+c)	The ability of one object or class to control all other objects 
+	trough the execution of the program
+d)	The ability of one object to bequeath money to objects that have
+	no relationship with him
+
+Q. 26 - 40.	Choose the most suitable words to complete the sentence:
+
+Q.	____ is used to group classes and avoid duplicate name conflicts.
+
+A:
+a)	Class
+b)	Namespace
+c)	Object	
+d)	Interface
+
+Q.	____ are used as references to methods.
+
+A:
+a)	Events
+b)	Objects
+c)	Structs	
+d)	Delegates
+
+Q.	The default access modifier (if no such stated) is ____.
+
+A:
+a)	private
+b)	protected
+c)	public
+d)	internal
+
+Q.	Casting between objects is done safely by first checking that 
+	the object can be casted with the ____ operator and then casting
+	with the ____ operator.
+
+A:
+a)	--, ++  
+b)	++, --
+c)	as, is
+d)	is, as
+
+Q.	Interfaces cannot contain ____.
+
+A:
+a)	Methods
+b)	Properties
+c)	Events
+d)	Fields
+
+Q.	The ability of one class to be used trough its parent is called ____.
+
+A:
+a)	Abstraction
+b)	Polymorphism
+c)	Broken Logic
+d)	Method
+
+Q.	A member or a method is ____ when it does not require for its class
+	to be instantiated, for it to be used.
+
+A:
+a)	public
+b)	protected
+c)	static
+d)	virtual
+
+Q.	The ____ is a special class method which is used to initialize all data,
+	needed for the class to function normally.
+
+A:
+a)	interface
+b)	constructor
+c)	abstract class	
+d)	property
+
+Q.	____ and ____ classes can define functionality, but they cannot be inherited.
+
+A:
+a)	Sealed, public
+b)	Sealed, static
+c)	Sealed, abstract
+d)	Sealed, partial
+
+Q.	The ____ keyword is used to defined new functionality for an inherited method 
+	and the ____ keyword is used to hide an inherited method with a newly implemented one.
+
+A:
+a)	new, override
+b)	sealed, private
+c)	override, new
+d)	public, protected
+
+Q.	____ are a way for a class to notify other classes or objects when something of interest
+	happens.
+
+A:
+a)	Delegates
+b)	Methods
+c)	Events
+d)	Objects
+
+Q.	____ allow you to access and maintaing class data safe and easy.
+
+A:
+a)	Delegates
+b)	Properties
+c)	Methods
+d)	Constructors
+
+Q.	The ____ keyword can be used to access members from within constructors, instance methods,
+	and the accessors of instance properties.
+
+A:
+a)	override
+b)	new
+c)	this
+d)	static
+
+Q.	A ____ type directly stores a value, whereas a ____ type only stores a reference to an
+actual value.
+
+A:
+a)	reference, value
+b)	value, reference
+c)	value, pointer
+d)	pointer, value
+
+Q.	The ____ access modifier is used in the definition of members and methods, in a particular 
+	class, which will be accessed only by derived, of that class, classes.
+
+A:
+a)	private
+b)	public
+c)	internal
+d)	protected
