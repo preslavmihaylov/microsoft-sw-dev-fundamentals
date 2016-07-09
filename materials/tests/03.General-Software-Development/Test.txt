@@ -1,0 +1,294 @@
+Q. 01.	You are developing a project, but it is not fully completed. You would, however, like
+		to release it to wider audiences for testing. Under what testing level would you do
+		that?
+		
+A:
+a) 	Regression testing
+b) 	Acceptance testing
+c) 	Unit testing
+d) 	Integration testing
+
+Q. 02.	Which of these data structures allows direct access to all of its elements?
+		
+A:
+a) 	Singly-Linked List
+b) 	Doubly-Linked List
+c) 	Queue
+d) 	Array
+
+Q. 03.	Which of these operations is not allowed in a queue data structure?
+		
+A:
+a) 	Enqueue
+b) 	Contains
+c) 	Peek
+d) 	Pop
+
+Q. 04.	Which of these operations is not allowed in a stack data structure?
+		
+A:
+a) 	Push
+b) 	Contains
+c) 	Remove
+d) 	Peek
+
+Q. 05.	What are Linked Lists slow for?
+		
+A:
+a) 	Inserting a certain element
+b) 	Deleting a certain element
+c) 	Searching for a certain element
+d) 	All of the above
+
+Q. 06.	You are tasked to develop a request-processing software program 
+		for a certain server. The program should process the requests, in 
+		order of entrance. What structure is best suited for this task?
+		
+A:
+a)	Singly-Linked List
+b)	Queue
+c)	Stack
+d)	Array
+
+Q. 07.	You are given the following code:
+		
+		int[] numbers = {2, 3, 4, 5};
+		
+		numbers[0] = numbers[1] = numbers[2] + numbers[3];
+		numbers[1] = numbers[2] = numbers[3] + numbers[2];
+		numbers[3] = numbers[1] = numbers[0];
+		
+		What will the array's elements be after its execution?
+		
+A:
+a)	5, 5, 5, 5
+b)	14, 12, 9, 5
+c)	9, 9, 9, 9
+d)	2, 3, 4, 5
+
+Q. 08.	You are tasked to create a software that requires
+		frequent insertion and deletion of elements. Performance
+		is a need. What is the best-suited structure for this task?
+		
+A:
+a)	Stack
+b)	Queue
+c)	Linked List
+d)	Array
+
+Q. 09.	The process of creating plans, models and architecture for
+		a certain product's implementation is called?
+		
+A:
+a)	Development
+b)	Design
+c)	Implementation
+d)	Requirments analysis
+
+
+Q. 10.	The process of verifying if the implementation of the software
+		matches the requirements of the system is called?
+		
+A:
+a)	Design
+b)	Development
+c)	Testing
+d)	Release management
+
+Q. 11.	Which of the following is true?
+		
+		The Bubble Sort algorithm ...
+		
+A:
+a)	Produces big and wide bubbles 
+b)	Compares each pair of adjacent items 
+c)	Stops when it finds an item that is not a number 
+d)	Deletes the list after it sorts it
+
+Q. 12.	Which of the following operations is not supported 
+		by the Linked Lists?
+		
+A:
+a)	Peek
+b)	Contains
+c)	Add
+d)	Remove
+
+Q. 13.	What is the default value of an array when it is not
+		initialized?
+		
+A:
+a)	0
+b)	null
+c)	"array"
+d)	Arrays cannot be defined without being initialized
+
+Q. 14.	What type of testing is the Unit Testing?
+		
+A:
+a)	white-box testing
+b)	blue-box testing
+c)	yellow-box testing
+d)	black-box testing
+
+Q. 15.	Which of the following is true for System Testing?
+		
+A:
+a)	System testing tests individual units of code
+b)	System testing does not test any hardware systems
+	in which the system itself is integrated
+c)	System testing is conducted on a complete, integrated system
+d)	There is no such thing as System Testing
+
+Q. 16.	You are given the following code:
+
+		Stack<int> numbers = new Stack<int>();
+		
+		for(int i = 0; i < 5; i++)
+		{
+			numbers.Push(i);
+		}
+		
+		int sum = 0;
+		
+		for(int i = 5; i >= 0; i++)
+		{
+			sum += numbers.Pop();
+		}
+		
+		Console.WriteLine(sum);
+		
+		What will the result of its execution be?
+		
+A:
+a)	"15" printed on the Console
+b)	"10" printed on the Console
+c)	"0" printed on the Console
+d)	InvalidOperationException thrown
+
+Q. 17.	How is the set of activities that revolve around a new
+		software product, called?
+		
+A:
+a)	Design and Development Management
+b)	Software Testing Management
+c)	Release Management
+d)	Application Lifecycle Management
+
+Q. 18.	How is the person who designs the blueprint for the technical
+		system, called?
+		
+A:
+a)	Developer
+b)	System Administrator
+c)	Architect
+d) 	Designer
+
+Q. 19.	You are testing a certain software's methods for correct
+		return values. Under which testing level does that fall?
+		
+A:
+a)	Unit testing
+b)	Integration testing
+c)	Alpha testing
+d)	Beta testing
+
+Q. 20.	Which of the following is not a black-box testing type?
+		
+A:
+a)	Integration testing
+b)	System testing
+c)	Alpha testing
+d)	Unit testing
+
+Q. 21 - 30 	Choose the most suitable words to complete the sentence:
+
+Q.	Software testing is generally divided into 2 types.
+	____ and ____.
+	
+A:
+a)	double, int
+b)	blue-box testing, red-box testing
+c)	Application Lifecycle Management, Release Management
+d)	white-box testing, black-box testing
+
+Q.	Usually, after ever major change, software developers run
+	____ to ensure that everything is still functioning properly.
+	
+A:
+a) 	release management
+b)	white-box tests
+c)	regression tests
+d)	exceptions
+
+Q.	A linked list is a collection of nodes such that each node 
+	contains a(n) ____ to the next node in the sequence.
+	
+A:
+a) 	pointer
+b)	test
+c)	index
+d)	method
+
+Q.	In the stack data structure elements are inserted and deleted
+	accoarding to the ____ principle.
+	
+A:
+a) 	OOP
+b)	LIFO
+c)	FIFO
+d)	LILO
+
+Q.	In the queue data structure elements are inserted and deleted
+	accoarding to the ____ principle.
+	
+A:
+a) 	LIFO
+b)	FIFO
+c)	OOP
+d)	Exceptional
+
+Q.	The ____ data structure, provides fast insertion and deleting of 
+	elements, but is slow in searching for a particular element.
+	
+A:
+a) 	Array
+b)	Queue
+c)	Stack
+d)	Linked List
+
+Q.	____ develop the system manuals and help files that will
+	be delivered along with the application.
+	
+A:
+a) 	Developers
+b)	Testers
+c)	User-experience designers
+d)	Technical Writers
+
+Q.	Members of the ____ interact with customers and help solve 
+	their problems with the system
+	
+A:
+a) 	Developers staff
+b)	Technical writers staff
+c)	Marketing staff
+d)	Technical support staff
+
+Q.	____ is the level of software testing in which individual 
+	software modules are combined and tested as a group.
+	
+A:
+a) 	Regression
+b)	Integration
+c)	Unit
+d)	System
+
+Q.	____ is a level of testing is often performed by the customers 
+	themselves. It is often divided into ____ and ____ testing.
+	
+A:
+a) 	Regression testing, Old, New
+b)	Acceptance testing, Alpha, Beta
+c)	Unit testing, Integration, System
+d)	Software testing, black-box, white-box
