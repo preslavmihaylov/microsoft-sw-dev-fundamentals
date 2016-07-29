@@ -1,0 +1,178 @@
+Q. 01.	You want to develop an application that displays a visual surface 
+		capable of displaying a variety of controls, such as text boxes, 
+		buttons, and menus. The application should also allow multiple 
+		child windows to reside under a single parent window. Which of the 
+		following types of application should you develop?
+
+A:
+a) 	Console-based application
+b) 	Windows service application
+c) 	Single document interface (SDI) application
+d) 	Multiple document interface (MDI) application
+
+Q. 02.	You are tasked with extending an existing Windows Forms Application.
+		You want your forms to inherit from a base form, already defined in
+		the existing code. What technique will you use?
+
+A:
+a) 	Visual inheritance
+b) 	Visual encapsulation
+c) 	Visual abstraction
+d)	Visual polymorphism
+
+Q. 03.	Which of the following is true?
+
+A:
+a)	MDI Applications are applcations in which exactly 1 child window resides under a single parent window
+b)	MDI Applications are applcations in which multiple child windows reside under a single parent window
+c)	Windows Services do not require installation before being used
+d)	A Windows Form is a Console display interface
+
+Q. 04.	Which of the following is NOT true?
+
+A:
+a)	Visual inheritance allows you to reuse existing functionality and layout for Windows Forms
+b)	Windows services cannot be used for creating long-running applications that run in the background and do not have any user interface.
+c)	In Windows Forms, each form and control exposes a predefined set of events.
+d)	Multiple document interface (MDI) applications are applications in which multiple child windows reside under a single parent window.
+
+Q. 05.	What are the possible values of the StartType property of a ServiceInstaller?
+
+A:
+a)	Initiated, Stopped
+b)	Manual, Automatic, Disabled
+c)	Accepted, Denied, Enqueued
+d)	On, Off, StandBy
+
+Q. 06.	You need to change the display and behavior of a Windows Form so that the form can
+		contain multiple child windows. What should you do?
+
+A:
+a)	Set the MdiChild property of the form to False
+b)	Set the MdiParent property for all the child windows
+c)	Set the IsMdiContainer property of the form to True
+d)	Set the IsMdiChild property of the form
+
+Q. 07.	You are working with a command line application. You want to read a key-press input. 
+		Which of the following commands will you use?
+
+A:
+a)	Console.WriteLine()
+b)	File.ReadLine()
+c)	Console.ReadKey()
+d)  	Console.Write()
+
+Q. 08.	Which of the following is TRUE?
+
+A:
+a)	All Windows Services must derive from the ServiceBase class.
+b)	When you add an installer to a Windows Service project, NO classes are added to the projects.
+c)	The Account property of the ServiceProcessInstaller class specifies whether or not - there is a logged in account.
+d)  	Visual Studio does not provide any templates for Windows Services.
+
+Q. 09.	A Windows Service:
+
+A:
+a)	Needs a logged-on user
+b)	Does not need a logged-on user
+c)	Can be used without being installed
+d)  	Cannot be used for long-running applications on the background.
+
+
+Q. 10.	You have developed a Windows service. This service need to run as a nonprivileged user
+		in order to minimize any possible security risk. Which of the following accounts should
+		you use for running this Windows service?
+
+A:
+a)	User (where the UserName property is set to a member of administrator role)
+b)	LocalService
+c)	NetworkService
+d)  	LocalSystem
+
+Q. 11 - 20.	Choose the most suitable words to complete the sentence:
+	
+Q.	"The ____ property of the ____ class indicates the account type under
+	which a Windows service will run."
+
+A:
+a) 	Account, ServiceProcessInstaller
+b) 	Authentication, ServiceProcessInstaller
+c) 	AccountType, ServiceInstaller
+d) 	AccountType, ServiceProcessInstaller
+
+Q.	"____ applications are applications in which multiple child windows reside under a
+	single parent window"
+	 
+A:
+a)  	Console
+b) 	Multiple Document Interface
+c) 	Windows Service
+d) 	Web
+
+Q. 	"____ do not have a graphical user interface and use a text-mode console window
+	to interact with the user."
+	 
+A:
+a) 	Console Applications
+b)	Web
+c) 	Windows Services
+d) 	MDI Applications
+
+Q. 	"____ allows you to reuse existing functionality and layout for Windows Forms."
+
+A:
+a)	Visual Inheritance 	
+b)	Visual Abstraction
+c) 	Windows Forms Inheritance
+d) 	Application Abstraction
+
+Q. 	"A delegate can be bound to any method whose signature matches that of the ____."
+	 
+A:
+a) 	event
+b) 	delegate
+c) 	method
+d) 	event handler
+
+Q. 	"A ____ is a visual surface capable of displaying a variety of controls"
+
+A:
+a) 	Console
+b)	Windows Form
+c) 	Windows Service
+d) 	Computer
+
+Q. 	"A ____ is an application that runs in the background and does not have any user interface."
+
+A:
+a) 	Windows Service
+b)	Console Application
+c) 	Keyboard
+d) 	Windows Form
+
+Q. 	"A form and its components generally respond to user actions such as keystrokes or mouse
+	movement. These actions are called ____. "
+	
+A:
+a) 	methods
+b)	delegates
+c) 	events
+d) 	actions
+
+Q.	"Multiple Document Interface applications contrast with ____ applications in which each
+	window contains its own menu and toolbar"
+	 
+A:
+a) 	Single Document Interface 
+b)	Restricted Document Interface
+c) 	Bound Document Interface
+d) 	Windows Forms
+
+Q. 	"The Windows Forms event model uses .NET Framework ____ to bind events to their respective event handlers."
+ 
+A:
+a) 	methods
+b)	classes
+c) 	delegates
+d) 	events
+

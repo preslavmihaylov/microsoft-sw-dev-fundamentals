@@ -1,0 +1,241 @@
+Q. 01.	A Web page is:
+
+A:	
+a)	document that is served over the World Wide Web (WWW) and can be displayed by a Web browser
+b)	a picture-type file which is used to render a web page on the browser
+c)	a desktop application that works on all platforms and operating systems
+d)	a database
+
+
+Q. 02.	You have developed an ASP.NET application, and you have deployed its
+		on a web server. What must your clients install in order to access
+		the application?
+a.	.NET Framework Redistributable
+b.	JavaScript
+c.	Visual Studio
+d.	A Web browser
+
+Q. 03.	You have created an ASP.NET Web service that converts one currency into
+		another. One of the methods in your Web service is defined with the
+		following code:
+
+			public double Convert(double amount, string from, string to)
+			{
+				// currency overriding code
+			}
+			
+		The users of the Web service report that they can set a reference to the Web
+		service but the Convert method is not available to them. What could be the
+		problem?
+A:
+a)	The Convert method is not marked with the WebMethod attribute
+b)	The method is not with the right access modifier
+c)	The .asmx file for the Web service is not available on the Web server
+d)	Web services cannot expose methods that return values
+
+Q. 04.	You have a Microsoft ASP.NET web application. You need to store a value 
+		that can be shared across users on the server. Which type of state 
+		management should you use?
+
+A:
+a)	Session
+b)	ViewState
+c)	Application
+d)	Cookies
+
+Q. 05.	Which language allows you to dynamically create content on the client side?
+
+A:
+a)	Cascading Style Sheets (CSS)
+b)	JavaScript (JS)
+c)	Extensible Markup Language (XML)
+d)	Hypertext Markup Language (HTML)
+ 
+Q. 06.	You create an application that uses Simple Object Access Protocol (SOAP).
+		Which technology provides information about the application’s functionality 
+		to other applications?
+
+A:		
+a)	Web Service Description Language (WSDL)
+b)	Common Intermediate Language (CIL)
+c)	Extensible Application Markup Language (XAML)
+d)	Universal Description, Discovery, and Integration (UDDI)
+ 
+Q. 07.	How should you configure an application to consume a Web service?
+ 
+A:
+a)	Add the Web service to the development computer
+b)	Add a reference to the application in the Web service
+c)	Add a reference to the Web service in the application
+d)	Add the Web service code to the application
+ 
+Q. 08.	You are creating an ASP. NET Web application. Which line 
+		of code should you use to require a control to process on 
+		the computer that hosts the application?
+
+A:
+a)	runat= “server”
+b)	redirect*=”HostPage. htm”
+c)	AutoEventWireup=”true”
+d)	defaultRedirect=”ServerPage. htm”
+ 
+Q. 09.	What are two possible options for representing a Web application 
+		within Internet Information Services (IIS)?
+		
+A:
+a)	web site, virtual directory
+b)	application directory, application server
+c)	web directory, web server
+d)	remote directory, remote server
+ 
+Q. 10.	You have a server that limits the number of data connections.
+		What should you use to optimize connectivity when the number of 
+		users exceeds the number of available connections?
+		
+A:
+a)	Named pipes
+b)	Normalization
+c)	Connection timeouts
+d)	Connection pooling
+ 
+Q. 11.	You need to group all the style settings into a separate file 
+		that can be applied to all the pages in a Web application.
+		What should you do?
+		
+A:
+a)	Use a Cascading Style Sheet (CSS)
+b)	Use inline styles
+c)	Use an Extensible Markup Language (XML) schema
+d)	Use a WebKit
+
+Q. 12.	You are creating a Web application. The application will be consumed 
+		by client computers that run a variety of Web browsers. Which term is 
+		used to describe the process of making the application available 
+		for client computers to access?
+
+A:
+a)	Deploying
+b)	Hosting
+c)	Virtualization
+d)	Casting
+
+Q. 13.	Which term is used to describe small units of text that are stored on 
+		a client computer and retrieved to maintain state?
+
+A:
+a)	trace
+b)	cross-page post
+c)	cookie
+d)	server transfer
+
+Q. 14.	Where must Internet Information Services (IIS) be installed in order 
+		to run a deployed ASP.NET application?
+
+A:
+a)	on the computer that you plan to deploy from
+b)	on the client computers
+c)	on the computer that hosts the application
+d)	on the Application Layer Gateway Service
+
+Q. 15.	You are writing a Web application that processes room reservation 
+		requests. You need to verify that the room that a guest has selected 
+		is not already reserved by another guest. Which type of programming 
+		should you use to determine whether the room is still available when 
+		the request is made?
+
+A:
+a)	client-side
+b)	batch processing
+c)	server-side
+d)	multithreaded
+
+Q. 16 - 25.	Choose the most suitable words to complete the sentence:
+	
+Q.	"____ is a client-side scripting language that runs inside a Web browser to help create
+	far more interactive Web pages than are possible with only HTML."
+
+A:
+a) 	CSS
+b) 	JavaScript
+c) 	ASP.NET
+d) 	HTML
+
+Q.	"____ is a Web server for hosting Web applications on the
+	Windows operating system. "
+
+A:
+a) 	State Management
+b) 	Cascade Style Sheet (CSS)
+c) 	ASP.NET
+d) 	Internet Information Services (IIS)
+
+Q.	"____ is the protocol that defines how remote computers exchange messages as part of
+	Web service communication. "
+
+A:
+a) 	SOAP
+b) 	MOAP
+c) 	FTP
+d) 	HTTP
+
+Q.	"You must mark classes with the ____ attribute to expose them as a
+	Web service."
+
+A:
+a) 	IIS
+b) 	WebAttribute
+c) 	WebService
+d) 	Object
+
+Q.	"____ is an XML-based language for describing Web services."
+
+A:
+a) 	HTTP
+b) 	SOAP
+c) 	JavaScript
+d) 	WSDL
+
+Q.	"A Web site is a container of applications and virtual directories. A ____ is
+	an alias that maps to a ____ on the Web server."
+
+A:
+a) 	client, server
+b) 	virtual directory, physical directory
+c) 	HTML, CSS
+d) 	request, response
+
+Q.	"____ uses JavaScript extensively in order to provide
+	responsive Web applications"
+
+A:
+a) 	HTML
+b) 	ASP.NET
+c) 	AJAX
+d) 	IIS
+
+Q.	"____ is used to store data that is used throughout an
+	application."
+
+A:
+a) 	Session State
+b) 	Application State
+c) 	Cookie State
+d) 	Client State
+
+Q.	"SOAP relies on ____ for its message format and uses ____ for
+	message transmission"
+
+A:
+a) 	XML, HTTP
+b) 	HTML, CSS
+c) 	JavaScript, XML
+d) 	ASP.NET, Requests
+
+Q.	"____ involves setting up a Web server with correct code files and settings so that
+	remote users can successfully access a Web application."
+
+A:
+a) 	Web Hosting
+b) 	Web Application
+c) 	HTTP
+d) 	SOAP
