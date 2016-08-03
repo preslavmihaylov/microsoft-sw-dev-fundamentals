@@ -1,0 +1,221 @@
+Q. 1.	You are employed as a developer at ABC.com. ABC.com makes use of SQL Server in their
+		environment. ABC.com has a database table, named ABCItems. You want to make sure that 
+		obsolete items are expunged from ABCItems when you update it.
+		What action should you take?
+
+A:
+a)	You should consider making use of the FILL SQL statement
+b)	You should consider making use of the DISCONTINUE SQL statement
+c)	You should consider making use of the REFRESH SQL statement
+d)	You should consider making use of the DELETE SQL statement
+
+Q. 2.	You are in the process of developing a new database for ABC.com. You are informed that the new
+		databases tables should satisfy the following normalization rules:
+		
+		1.Repeating groups in individual tables should be removed. 
+		2.A separate table should be created for every array of related data. 
+		3.Every array of related data should be identified with a primary key.
+		4.Separate tables should be created for arrays of values that pertain to multiple data. 
+		5.These tables should be linked with a foreign key.
+
+		What normal form is satisfied by these rules?
+
+A:
+a)	1 NF
+b)	2 NF
+c)	3 NF
+d)	1 NF and 3NF
+
+Q. 3.	ABC.com makes use of SQL Server 
+		in their environment. You have created a new application for ABC.com that contains 
+		a SqlDataAdapter object. The SqlDataAdapter object has been linked to a table. 
+		You are planning to make use of the Fill method for returning information from the 
+		table. You have been informed that the Fill method should access the SQL server 
+		database connection and read the data.
+		What actions should you take? 
+
+A:
+a)	You should consider setting the Connection property of the SqlDataAdapter object to an 
+	applicable SQL Server database connection
+b)	You should consider setting the Connection property of the SqlDataAdapter object to an 
+	applicable data table
+c)	You should consider quiting your job at ABC.com
+d)	You should consider configuring the SQL Server database connection to be in an open state
+
+Q. 4.	You are in the process of developing a new database for ABC.com. You are informed that 
+		the new databases tables should satisfy normalization rules for the third normal form.
+		What option must be present to satisfy the third normal form?
+
+A:
+a)	Repeating groups in individual tables should be removed
+b)	Separate tables should be created for arrays of values that pertain to multiple data
+c)	A separate table should be created for every array of related data
+d)	Fields that are not dependant on the foreign key should be removed
+
+Q. 5.	ABC.com makes use of SQL Server databases in
+		their environment. You have been instructed to create a new program for ABC.com. This new 
+		program must be able to write information to a flat file. You decide to include a BinaryWriter 
+		class in your code. What is TRUE with regards to the BinaryWriter class?
+
+A:
+a)	It writes characters using an encoding value to convert the characters to bytes
+b)	It writes basic types in binary to a stream and supports writing strings in a specific encoding
+c)	It allows characters to be read using an encoding value to convert the characters from bytes
+d)	It writes a forward-only stream of data rows to a data source
+
+Q. 6.	You are in the process of developing a new database for ABC.com. You are 
+		informed that the new databases tables should satisfy normalization rules 
+		for the first normal form.
+		Which of the following is NOT a suitable rule for the first normal form? 
+
+A:
+a)	Repeating groups in individual tables should be removed
+b)	Every array of related data should be identified with a primary key
+c)	A separate table should be created for every array of related data
+d)	Fields that is not dependant on the foreign key should be removed
+
+Q. 7.	You have a table named ITEMS with the following fields:
+		
+		ID (integer, primary key. auto generated)
+		Description (text)
+		Completed (Boolean)
+		
+		You need to insert the following data in the table: “Cheese”, False
+		Which statement should you use?
+
+A:
+a)	INSERT INTO ITEMS (10, Description, Completed) VALUES (NEWID(), ‘Cheese’, 6)
+b)	INSERT INTO ITEMS (Description, Completed) VALUES (‘Cheese’, 1)
+c)	INSERT INTO ITEMS (Description, Completed) VALUES (‘Cheese’, 6)
+d)	INSERT INTO ITEMS (ID, Description, Completed) VALUES (1, ‘Cheese’, 0)
+
+Q. 8.	Which language was designed for the primary purpose of querying data, modifying data, and
+		managing databases in a Relational Database Management System?
+
+A:
+a)	C++
+b)	C#
+c)	SQL
+d)	Visual Basic
+
+Q. 9.	You need to ensure the data integrity of a database by resolving insertion, update, and
+		deletion anomalies.
+		Which term is used to describe this process in relational database design?
+
+A:
+a)	Resolution
+b)	Evolution
+c)	Normalization
+d)	Integration
+
+Q. 10.	In your student directory database, the Students table contains the following fields:
+		
+		firstName
+		lastName
+		emailAddress
+		telephoneNumber
+
+		You need to retrieve the data from the firstName, lastName, and emailAddress fields for all
+		students listed in the directory. The results must be in alphabetical order according to
+		lastName and then firstName.
+		Which statement should you use?
+
+A:
+a)	SELECT firstName, lastName, emailAdress
+		FROM Students BY lastName, firstName
+b)	SELECT firstName, lastName
+		FROM Students 
+		ORDER BY lastName, firstName, emailAddress
+c)	SELECT firstName, lastName, emailAdress
+		FROM Students 
+		SORT BY lastName, firstName
+d)	SELECT firstName, lastName, emailAdress
+		FROM Students 
+		ORDER BY lastName, firstName
+
+Q. 11 - 20.	Choose the most suitable words to complete the sentence:
+	
+Q.	"You need to ____ a SQL Server database before you can manipulate any information
+	in that database"
+
+A:
+a) 	disconnect from
+b) 	connect to
+c) 	delete
+d) 	add
+
+Q.	"The ____ SQL statement is used to add one or more rows to a database table"
+
+A:
+a)	ADD
+b)	PUSH
+c)	INSERT
+d)	BREAK
+
+Q.	"A ____ is a set of SQL statements that is stored in a database"
+
+A:
+a)	query
+b)	algoritm
+c)	field
+d)	stored procedure
+
+Q.	"A ____ is a database table that is stored inside a stand-alone disk file. A
+	____ is an in-memory representation of relational data."
+
+A:
+a)	field, property
+b)	flat file, DataSet
+c)	DataSet, flat file
+d)	property, field
+
+Q.	"The ____ format is a hierarchical data representation format"
+
+A:
+a)	SQL
+b)	C#
+c)	XML
+d)	JavaScript
+
+Q.	"The basic building blocks for an entity-relationship diagram are ____, ____ and ____"
+
+A:
+a)	Entity, Connection, Attribute
+b)	Entity, Attribute, Relationship
+c)	Relationship, Column, Row
+d)	Database, DataSet, Data file
+
+Q.	"The ____ clause in a SELECT statement evaluates each row for a
+	condition and decides whether to include it in the result set"
+
+A:
+a)	WHERE
+b)	SELECT
+c)	GET
+d)	ONLY
+
+Q.	"The object used with the using statement must implement the ____
+	interface"
+
+A:
+a)	IDisposable
+b)	IUsingable
+c)	IUseable
+d)	IIncludable
+
+Q.	"The ____ class acts as a bridge between the data source and the DataSet"
+
+A:
+a)	DataField
+b)	DataSet
+c)	Database
+d)	DataAdapter
+
+Q.	"____ is the process of determining the appropriate relational database structure 
+	to satisfy business requirements."
+
+A:
+a)	Relational database normalization
+b)	Relational database design
+c)	Relational database creation
+d)	Relational database modification
