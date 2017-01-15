@@ -37,7 +37,7 @@ A:
 a) 	true != true
 b) 	personName == inputName || personAge = requiredAge
 c) 	1 == 1 && 2 == 3 && 4 == 5
-d) 	personPassword == requiredPassword || username = requiredUsername && email == requiredEmail
+d) 	personPassword == requiredPassword || username == requiredUsername && email == requiredEmail
 
 Q: 04. 	Which of the following is true?
 
