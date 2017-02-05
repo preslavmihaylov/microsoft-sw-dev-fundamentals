@@ -1,0 +1,6 @@
+D:\Trash\temp\msdf\OOP-2\InheritanceExample\bin\Debug\InheritanceExample.exe.config
+D:\Trash\temp\msdf\OOP-2\InheritanceExample\bin\Debug\InheritanceExample.exe
+D:\Trash\temp\msdf\OOP-2\InheritanceExample\bin\Debug\InheritanceExample.pdb
+D:\Trash\temp\msdf\OOP-2\InheritanceExample\obj\Debug\InheritanceExample.csprojResolveAssemblyReference.cache
+D:\Trash\temp\msdf\OOP-2\InheritanceExample\obj\Debug\InheritanceExample.exe
+D:\Trash\temp\msdf\OOP-2\InheritanceExample\obj\Debug\InheritanceExample.pdb
