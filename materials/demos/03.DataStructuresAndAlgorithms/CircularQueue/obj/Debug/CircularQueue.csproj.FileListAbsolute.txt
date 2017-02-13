@@ -1,0 +1,5 @@
+D:\Trash\temp\msdf\DataStructuresAndAlgorithms\00.CircularQueue\bin\Debug\CircularQueue.exe
+D:\Trash\temp\msdf\DataStructuresAndAlgorithms\00.CircularQueue\bin\Debug\CircularQueue.pdb
+D:\Trash\temp\msdf\DataStructuresAndAlgorithms\00.CircularQueue\obj\Debug\CircularQueue.csprojResolveAssemblyReference.cache
+D:\Trash\temp\msdf\DataStructuresAndAlgorithms\00.CircularQueue\obj\Debug\CircularQueue.exe
+D:\Trash\temp\msdf\DataStructuresAndAlgorithms\00.CircularQueue\obj\Debug\CircularQueue.pdb

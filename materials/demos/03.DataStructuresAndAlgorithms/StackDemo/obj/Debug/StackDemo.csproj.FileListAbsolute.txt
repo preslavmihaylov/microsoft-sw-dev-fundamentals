@@ -1,0 +1,5 @@
+D:\Trash\temp\msdf\DataStructuresAndAlgorithms\StackDemo\bin\Debug\StackDemo.exe
+D:\Trash\temp\msdf\DataStructuresAndAlgorithms\StackDemo\bin\Debug\StackDemo.pdb
+D:\Trash\temp\msdf\DataStructuresAndAlgorithms\StackDemo\obj\Debug\StackDemo.exe
+D:\Trash\temp\msdf\DataStructuresAndAlgorithms\StackDemo\obj\Debug\StackDemo.pdb
+D:\Trash\temp\msdf\DataStructuresAndAlgorithms\StackDemo\obj\Debug\StackDemo.csprojResolveAssemblyReference.cache
