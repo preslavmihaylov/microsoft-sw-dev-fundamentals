@@ -1,0 +1,6 @@
+D:\Programming\lectures\microsoft-software-dev-fundamentals\demos\DataStructuresAlgorithms\LinkedList\bin\Debug\LinkedList.exe.config
+D:\Programming\lectures\microsoft-software-dev-fundamentals\demos\DataStructuresAlgorithms\LinkedList\bin\Debug\LinkedList.exe
+D:\Programming\lectures\microsoft-software-dev-fundamentals\demos\DataStructuresAlgorithms\LinkedList\bin\Debug\LinkedList.pdb
+D:\Programming\lectures\microsoft-software-dev-fundamentals\demos\DataStructuresAlgorithms\LinkedList\obj\Debug\LinkedList.csprojResolveAssemblyReference.cache
+D:\Programming\lectures\microsoft-software-dev-fundamentals\demos\DataStructuresAlgorithms\LinkedList\obj\Debug\LinkedList.exe
+D:\Programming\lectures\microsoft-software-dev-fundamentals\demos\DataStructuresAlgorithms\LinkedList\obj\Debug\LinkedList.pdb

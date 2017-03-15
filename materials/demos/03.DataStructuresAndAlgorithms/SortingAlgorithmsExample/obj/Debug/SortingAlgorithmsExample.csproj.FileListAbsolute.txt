@@ -1,0 +1,5 @@
+D:\Programming\lectures\microsoft-software-dev-fundamentals\demos\DataStructuresAlgorithms\SortingAlgorithmsExample\bin\Debug\SortingAlgorithmsExample.exe
+D:\Programming\lectures\microsoft-software-dev-fundamentals\demos\DataStructuresAlgorithms\SortingAlgorithmsExample\bin\Debug\SortingAlgorithmsExample.pdb
+D:\Programming\lectures\microsoft-software-dev-fundamentals\demos\DataStructuresAlgorithms\SortingAlgorithmsExample\obj\Debug\SortingAlgorithmsExample.exe
+D:\Programming\lectures\microsoft-software-dev-fundamentals\demos\DataStructuresAlgorithms\SortingAlgorithmsExample\obj\Debug\SortingAlgorithmsExample.pdb
+D:\Programming\lectures\microsoft-software-dev-fundamentals\demos\DataStructuresAlgorithms\SortingAlgorithmsExample\obj\Debug\SortingAlgorithmsExample.csprojResolveAssemblyReference.cache
