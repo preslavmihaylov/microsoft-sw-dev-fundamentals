@@ -1,8 +1,0 @@
-D:\Trash\temp\msdf\DataStructuresAndAlgorithms\00.CircularQueue.Tests\bin\Debug\CircularQueue.Tests.dll
-D:\Trash\temp\msdf\DataStructuresAndAlgorithms\00.CircularQueue.Tests\bin\Debug\CircularQueue.Tests.pdb
-D:\Trash\temp\msdf\DataStructuresAndAlgorithms\00.CircularQueue.Tests\bin\Debug\CircularQueue.exe
-D:\Trash\temp\msdf\DataStructuresAndAlgorithms\00.CircularQueue.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-D:\Trash\temp\msdf\DataStructuresAndAlgorithms\00.CircularQueue.Tests\bin\Debug\CircularQueue.pdb
-D:\Trash\temp\msdf\DataStructuresAndAlgorithms\00.CircularQueue.Tests\obj\Debug\CircularQueue.Tests.csprojResolveAssemblyReference.cache
-D:\Trash\temp\msdf\DataStructuresAndAlgorithms\00.CircularQueue.Tests\obj\Debug\CircularQueue.Tests.dll
-D:\Trash\temp\msdf\DataStructuresAndAlgorithms\00.CircularQueue.Tests\obj\Debug\CircularQueue.Tests.pdb
