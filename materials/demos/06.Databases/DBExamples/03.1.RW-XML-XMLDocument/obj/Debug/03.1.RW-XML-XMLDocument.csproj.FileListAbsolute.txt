@@ -1,0 +1,5 @@
+D:\Programming\lectures\microsoft-software-dev-fundamentals\demos\DBExamples\03.1.RW-XML-XMLDocument\bin\Debug\03.1.RW-XML-XMLDocument.exe.config
+D:\Programming\lectures\microsoft-software-dev-fundamentals\demos\DBExamples\03.1.RW-XML-XMLDocument\bin\Debug\03.1.RW-XML-XMLDocument.exe
+D:\Programming\lectures\microsoft-software-dev-fundamentals\demos\DBExamples\03.1.RW-XML-XMLDocument\bin\Debug\03.1.RW-XML-XMLDocument.pdb
+D:\Programming\lectures\microsoft-software-dev-fundamentals\demos\DBExamples\03.1.RW-XML-XMLDocument\obj\Debug\03.1.RW-XML-XMLDocument.exe
+D:\Programming\lectures\microsoft-software-dev-fundamentals\demos\DBExamples\03.1.RW-XML-XMLDocument\obj\Debug\03.1.RW-XML-XMLDocument.pdb

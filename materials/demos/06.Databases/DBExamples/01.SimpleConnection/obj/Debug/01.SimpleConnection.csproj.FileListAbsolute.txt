@@ -1,0 +1,5 @@
+D:\Programming\lectures\microsoft-software-dev-fundamentals\demos\DBExamples\01.SimpleConnection\obj\Debug\01.SimpleConnection.csprojResolveAssemblyReference.cache
+D:\Programming\lectures\microsoft-software-dev-fundamentals\demos\DBExamples\01.SimpleConnection\bin\Debug\01.SimpleConnection.exe
+D:\Programming\lectures\microsoft-software-dev-fundamentals\demos\DBExamples\01.SimpleConnection\bin\Debug\01.SimpleConnection.pdb
+D:\Programming\lectures\microsoft-software-dev-fundamentals\demos\DBExamples\01.SimpleConnection\obj\Debug\01.SimpleConnection.exe
+D:\Programming\lectures\microsoft-software-dev-fundamentals\demos\DBExamples\01.SimpleConnection\obj\Debug\01.SimpleConnection.pdb
