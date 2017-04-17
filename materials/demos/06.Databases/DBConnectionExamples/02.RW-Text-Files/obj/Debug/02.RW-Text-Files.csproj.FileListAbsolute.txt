@@ -1,5 +1,0 @@
-D:\Programming\lectures\microsoft-software-dev-fundamentals\demos\DBExamples\02.RW-Text-Files\bin\Debug\02.RW-Text-Files.exe
-D:\Programming\lectures\microsoft-software-dev-fundamentals\demos\DBExamples\02.RW-Text-Files\bin\Debug\02.RW-Text-Files.pdb
-D:\Programming\lectures\microsoft-software-dev-fundamentals\demos\DBExamples\02.RW-Text-Files\obj\Debug\02.RW-Text-Files.csprojResolveAssemblyReference.cache
-D:\Programming\lectures\microsoft-software-dev-fundamentals\demos\DBExamples\02.RW-Text-Files\obj\Debug\02.RW-Text-Files.exe
-D:\Programming\lectures\microsoft-software-dev-fundamentals\demos\DBExamples\02.RW-Text-Files\obj\Debug\02.RW-Text-Files.pdb

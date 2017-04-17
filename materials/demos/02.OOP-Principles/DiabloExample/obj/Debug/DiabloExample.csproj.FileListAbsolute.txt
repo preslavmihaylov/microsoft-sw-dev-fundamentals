@@ -1,5 +1,0 @@
-D:\Trash\temp\msdf\OOP-2\DiabloExample\bin\Debug\DiabloExample.exe
-D:\Trash\temp\msdf\OOP-2\DiabloExample\bin\Debug\DiabloExample.pdb
-D:\Trash\temp\msdf\OOP-2\DiabloExample\obj\Debug\DiabloExample.exe
-D:\Trash\temp\msdf\OOP-2\DiabloExample\obj\Debug\DiabloExample.pdb
-D:\Trash\temp\msdf\OOP-2\DiabloExample\obj\Debug\DiabloExample.csprojResolveAssemblyReference.cache

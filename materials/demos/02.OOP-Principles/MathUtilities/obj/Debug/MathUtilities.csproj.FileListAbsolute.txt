@@ -1,4 +1,0 @@
-D:\Trash\temp\msdf\OOP-2\MathUtilities\bin\Debug\MathUtilities.dll
-D:\Trash\temp\msdf\OOP-2\MathUtilities\bin\Debug\MathUtilities.pdb
-D:\Trash\temp\msdf\OOP-2\MathUtilities\obj\Debug\MathUtilities.dll
-D:\Trash\temp\msdf\OOP-2\MathUtilities\obj\Debug\MathUtilities.pdb

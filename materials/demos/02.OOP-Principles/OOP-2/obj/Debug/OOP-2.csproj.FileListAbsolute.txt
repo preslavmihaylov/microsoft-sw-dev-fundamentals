@@ -1,6 +1,0 @@
-D:\Trash\temp\msdf\OOP-2\OOP-2\bin\Debug\OOP-2.exe.config
-D:\Trash\temp\msdf\OOP-2\OOP-2\obj\Debug\OOP-2.csprojResolveAssemblyReference.cache
-D:\Trash\temp\msdf\OOP-2\OOP-2\bin\Debug\OOP-2.exe
-D:\Trash\temp\msdf\OOP-2\OOP-2\bin\Debug\OOP-2.pdb
-D:\Trash\temp\msdf\OOP-2\OOP-2\obj\Debug\OOP-2.exe
-D:\Trash\temp\msdf\OOP-2\OOP-2\obj\Debug\OOP-2.pdb

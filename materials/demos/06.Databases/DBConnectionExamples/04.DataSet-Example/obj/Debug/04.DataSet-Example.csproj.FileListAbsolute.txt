@@ -1,5 +1,0 @@
-D:\Programming\lectures\microsoft-software-dev-fundamentals\demos\DBExamples\04.DataSet-Example\bin\Debug\04.DataSet-Example.exe
-D:\Programming\lectures\microsoft-software-dev-fundamentals\demos\DBExamples\04.DataSet-Example\bin\Debug\04.DataSet-Example.pdb
-D:\Programming\lectures\microsoft-software-dev-fundamentals\demos\DBExamples\04.DataSet-Example\obj\Debug\04.DataSet-Example.exe
-D:\Programming\lectures\microsoft-software-dev-fundamentals\demos\DBExamples\04.DataSet-Example\obj\Debug\04.DataSet-Example.pdb
-D:\Programming\lectures\microsoft-software-dev-fundamentals\demos\DBExamples\04.DataSet-Example\obj\Debug\04.DataSet-Example.csprojResolveAssemblyReference.cache
