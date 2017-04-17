@@ -1,5 +1,0 @@
-D:\Programming\lectures\microsoft-software-dev-fundamentals\demos\DBExamples\03.RW-XML\bin\Debug\03.RW-XML.exe
-D:\Programming\lectures\microsoft-software-dev-fundamentals\demos\DBExamples\03.RW-XML\bin\Debug\03.RW-XML.pdb
-D:\Programming\lectures\microsoft-software-dev-fundamentals\demos\DBExamples\03.RW-XML\obj\Debug\03.RW-XML.csprojResolveAssemblyReference.cache
-D:\Programming\lectures\microsoft-software-dev-fundamentals\demos\DBExamples\03.RW-XML\obj\Debug\03.RW-XML.exe
-D:\Programming\lectures\microsoft-software-dev-fundamentals\demos\DBExamples\03.RW-XML\obj\Debug\03.RW-XML.pdb
